@@ -1,3 +1,4 @@
+'use client'
 import React, { useEffect, useState } from "react";
 import Banner from "../component/banner/Banner";
 import ApiCall from "../api/Api";
