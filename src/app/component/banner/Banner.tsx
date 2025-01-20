@@ -1,3 +1,4 @@
+'use client'
 import H1 from "../typography/H1";
 import H6 from "../typography/H6";
 import Para from "../typography/Para";
@@ -5,7 +6,6 @@ import { useSelector } from 'react-redux';
 import { RootState } from '../../redux/store';
 // import { increment, decrement, incrementByAmount } from '../../redux/slices/counter/CounterSlice';
 export default function Banner() {
-    const count = useSelector((state: RootState) => state.products);
   return (
     <>
       <div className="banner-content flex items-start flex-col gap-[2rem] md:gap-[10rem] sm:gap-[6rem]  lg:gap-[14rem]">
