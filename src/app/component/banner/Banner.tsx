@@ -8,7 +8,7 @@ import { RootState } from '../../redux/store';
 export default function Banner() {
   return (
     <>
-      <div className="banner-content flex items-start flex-col gap-[0rem] md:gap-[10rem] sm:gap-[0rem]  lg:gap-[14rem]">
+      <div className="banner-content flex items-start flex-col gap-[1rem] md:gap-[10rem] sm:gap-[0rem]  lg:gap-[14rem]">
         <div className="left-content  mx-3">
           <H1
             title="Step-up Your Stride"
